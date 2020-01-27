@@ -26,7 +26,7 @@ end
 
 # A simple function to make turning off from the command line easier
 function poweroff
-	command sudo shutdow -h now
+	command sudo shutdown -h now
 end
 
 
