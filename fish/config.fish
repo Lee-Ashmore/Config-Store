@@ -24,6 +24,13 @@ end
 
 
 
+# A simple function to make turning off from the command line easier
+function poweroff
+	command sudo shutdown -h now
+end
+
+
+
 # Print the Fish Logo
 function logo
     echo '                 '(set_color F00)'___
@@ -42,6 +49,7 @@ function logo
                       (J'(set_color FF7F00)'JJ'(set_color F00)'| \UUU)
                        (UU)'(set_color normal)
 end
+
 
 
 # Run on Start up -------------------------------------------------------------
