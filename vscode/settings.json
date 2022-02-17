@@ -1,0 +1,57 @@
+{
+    // Editor
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.suggestSelection": "first",
+    "editor.tabSize": 4,
+    "files.autoSave": "onFocusChange",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "file-icons",
+    "workbench.colorTheme": "Cobalt2",
+    "explorer.confirmDragAndDroip": false, 
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active",
+    // Emmet
+    "emmet.triggerExpansionOnTab": true,
+    // Prettier
+    "prettier.jsxBracketSameLine": true,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // Python
+    "python.linting.pylintEnabled": true,
+    // this next line needs to be cahnged to match the enviorment I am using with virtualenv
+    "python.linting.pylintPath": "/Users/lee/codebase/Sudoku/bin/python",
+    "python.linting.enabled": true,
+    "python.jediEnabled": false,
+    "python.languageServer": "Microsoft",
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 0,
+    // Rust
+
+    // Vim
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+    ] 
+}
